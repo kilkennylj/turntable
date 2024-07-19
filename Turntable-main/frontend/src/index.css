@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@layer base
+{
+  @font-face {
+    font-family: 'Hendangan';
+    src: url(../public/fonts/Hendangan.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'twoweekendgo-bold';
+    src: url(../public/fonts/twoweekendgo-bold.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'twoweekendgo-regular';
+    src: url(../public/fonts/twoweekendgo-regular.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'twoweekendgo-semibold';
+    src: url(../public/fonts/twoweekendgo-semibold.otf) format('opentype');
+  }
+}
